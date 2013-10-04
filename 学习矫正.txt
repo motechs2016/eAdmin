@@ -1,0 +1,4 @@
+1.在class静态方法中，不能调用非静态方法和变量，
+2. 在class动态方法中，不能调用静态属性
+3. pdo中new PDO($dsn,$root,$user)，$dsn = "mysql:...." ,主意双引号与mysql不能有空格
+ 
